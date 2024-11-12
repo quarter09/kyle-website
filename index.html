@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta https-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5f913b4c64.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" alt="Logo" width="200" height="70">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact-form">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p style=>General Virtual Assistant</p>
+            <h1>Hi, I'm <span style="color:red;">Kyle</span><br>Lorace Espinosa from the Philippines</h1></div>
+    </div>
+</div>
+<!---------ABOUT--------->
+<div>
+    <div id="about">
+        <div class="row">
+            <div class="about-col-1">             
+                <img src="images/user.jpg" alt="user">
+            </div>                
+            <div class="about-col-2">
+                <div class="sub-title">About Me</div>
+                <p class="large-text">
+                    I am Kyle Lorace A. Espinosa, a passionate and driven Computer Science graduate with a strong foundation in freelancing and virtual assistance. 
+                    Throughout my academic journey, I have gained hands-on experience in project management, research, and technical assistance, enabling me to thrive in fast-paced, challenging environments. 
+                    I excel at tackling complex problems, and my technical expertise includes data analysis, transcription, and software development, which I apply to optimize workflows and deliver exceptional results.<br>
+    
+                
+                    <br>With a proven ability to work independently and collaboratively, I have successfully contributed to various roles, including being a Database Research Assistant and a Freelance Transcriptionist, demonstrating my versatility across different industries.<br>
+      
+                
+                    <br>I am continuously seeking opportunities to grow, embrace new technologies, and contribute my skills to innovative projects. 
+                    As I move forward in my career, I aim to leverage my technical knowledge and collaborative approach to solve challenges and make a positive impact on any team I work with.<br>
+                </p>
+                
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    <p class="tab-links" onclick="opentab('Software')">Software</p>
+                  </div>
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                            <li><span>Virtual Assistance</span></li>
+                            <li><span>Front-end Web Developer</span></li>
+                            <li><span>Graphic Design</span></li>
+                            <li><span>Proficient in MS Office</span></li>
+                            <li><span>Transcription</span></li>
+                            <li><span>Basic Understanding of Blockchain Technology and Cryptocurrencies</span></li>
+                            <li><span>Social Media Management</span></li>
+                            <li><span>Video Editing</span></li>
+                    </ul>
+                    </div>
+                        <div class="tab-contents" id="Experience">
+                    <ul>
+                            <li> Research Assistant / Callbox Inc. :
+                            
+                                Conducted thorough research and data collection using online databases and academic resources.
+                                Assisted senior researchers in compiling, organizing, and verifying data for various research projects.                              Entered and maintained data in databases, ensuring accuracy and completeness.
+                                Utilized data analysis tools such as Excel to analyze research findings and generate reports.
+                                Prepared summaries and presentations of research findings for team meetings and academic publications.
+                                Collaborated with colleagues to brainstorm research methodologies and improve data collection processes.<br>
+                                
+                                <br>Freelance Transcriptionist /Freelance :                                             
+                                Successfully transcribed various audio files across different industries, including interviews, podcasts, and focus groups.
+                                Demonstrated proficiency in using transcription software and tools to expedite workflow.
+                                Managed multiple transcription projects simultaneously while ensuring accuracy and confidentiality.
+                                Developed strong time management skills to deliver transcripts within agreed-upon deadlines, adhering to turnaround times.
+                                This work experience highlights a blend of research, data management, and transcription skills, with a focus on accuracy, time management, and collaboration.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                <ul>
+                    <li><span>Bachelor of Science in Computer Science with Honors
+                        Iloilo Science and Technology University
+                        July 2021 / June 2024</span>
+                        Earned a Diploma in Computer Science.<br>
+
+                        <br><span>Best Thesis Awardee:</span> “Smart Eye: Real-Time Traffic Light Color Detection System with Audio and Text Assistive Technology for Color Blind Drivers Using Yolo Algorithm”.<br></li>
+                        
+                       <br><li> High School Diploma
+                        Oton National High School
+                        June 2018 / July 2020
+                        Graduated with Honors and was a Merit Awardee.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Software">
+                    <ul>                    
+                            <li><span>Microsoft Office Suite: Word, Excel, PowerPoint</span></li>
+                            <li><span>Google Workspace</span></li>
+                            <li><span>Trello</span></li>
+                            <li><span>Slack</span></li>
+                            <li><span>Transcription software (Rev, OTranscribe)</span></li>
+                            <li><span>Data analysis tools (Apollo)</span></li>
+                            <li><span>Photoshop, Capcut, Filmora, Vegas</span></li>
+                            
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------SERVICES------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title1">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-sharp fa-solid fa-computer"></i>
+                <h2>Virtual Assistant</h2>
+                <p>1. <span style="color:lightcoral;">Administrative Support</span>: Handling emails, scheduling meetings, calendar management, and managing travel arrangements.<br>
+                    <br>2. <span style="color:lightcoral;"> Social Media Management</span>: Creating and scheduling posts, managing accounts, and analyzing engagement data.<br>
+                    <br>3. <span style="color:lightcoral;">Data Entry & Research</span>: Collecting, entering, and organizing data conducting online research.<br>
+                    <br>4. <span style="color:lightcoral;">Project Management</span>: Assisting in organizing tasks, managing timelines, and ensuring project milestones are met.<br>
+                    <br>5. <span style="color:lightcoral;">Customer Service</span>: Responding to inquiries, resolving issues, and managing client or customer relationships.<br>
+                    <br>6. <span style="color:lightcoral;">Content Creation</span>: Writing blog posts, creating graphics, or editing videos based on the client’s needs.</p>
+                   
+            </div>
+            <div>
+                <i class="fa-sharp-duotone fa-solid fa-palette"></i>
+                <h2>Graphic Design</h2>
+                <p>1. <span style="color:lightcoral;">Branding & Identity</span>: Creating logos, business cards, and brand guidelines that establish a visual identity for businesses or individuals.<br>
+                    <br>2. <span style="color:lightcoral;">Print Design</span>: Designing brochures, flyers, posters, magazines, and other materials for physical distribution.<br>
+                    <br>3. <span style="color:lightcoral;">Digital Design</span>: Creating digital graphics for websites, social media, and online advertisements, ensuring the design is optimized for various platforms and devices.<br>
+                    <br>4. <span style="color:lightcoral;">illustration</span>: Developing original artwork or custom graphics for various projects, such as infographics, icons, and illustrations.<br>
+                    <br>5. <span style="color:lightcoral;">Packaging Design</span>: Designing product packaging that is both functional and visually appealing, helping brands stand out on the shelves.<br>
+                    <br>6. <span style="color:lightcoral;">Typography</span>: Crafting and arranging typefaces to create visually compelling and readable designs.</p>
+                    
+            </div>
+        </div>
+    </div>
+</div>
+<!------Contact-------->    
+
+<title>Contact Form</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="contact-form">
+    <div class="container">
+        <div class="row"></div>
+        <p style="font-size: 45px; font-weight: bold;">Contact Me</p>
+        <div class="contact-info">
+            <p><i class="fa-solid fa-paper-plane"></i> kylelorace.espinosa@students.isatu.edu.ph</p>
+            <p><i class="fa-solid fa-phone"></i> 09270742698</p>
+          </div>
+  <div class="social-icons">
+    <a href=https://www.facebook.com/xPeke.Febiven><i   
+class="fa-brands fa-facebook"></i></a>
+    <a href="https://www.instagram.com/kuzan_kyle/"><i class="fa-brands fa-instagram"></i></a>
+    <a href="https://www.linkedin.com/in/yourlinkedin"><i class="fa-brands fa-linkedin"></i></a>
+  </div>
+    <div class="contact-right">
+         <form name="submit-to-google-sheet">
+            <input type="email" name="Email" placeholder ="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <button type="submit">Submit</button>
+        </form>
+        <span id="msg"></span>
+    </div>
+    </div>
+</div>
+</body>
+</html>
+<a href="images/my-cv.pdf" download class="download-cv-button">Download CV</a></div>
+    
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+        // Loop through tablinks and remove the active-link class from each
+        for (let tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+
+        // Loop through tabcontents and remove the active-tab class from each
+        for (let tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+
+        // Add the active-link class to the clicked tab and active-tab to the corresponding tab content
+        document.querySelector(`[onclick="opentab('${tabname}')"]`).classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    const hamburger = document.querySelector('.fa-bars');
+const navMenu = document.querySelector('nav ul');
+
+</script>
+
+<script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxJhoOwVxh1wqV6SN_CyUuwUNhaEfHS8GeFG8bjrxf0qEKz7KeiZQlR2ezG7cgA5MDIKQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+        },5000)
+        form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
